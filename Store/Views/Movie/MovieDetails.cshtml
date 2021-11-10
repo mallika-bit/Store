@@ -1,0 +1,13 @@
+﻿@model Store.Models.Movie 
+@{
+    ViewBag.Title = "MovieDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MovieDetails</h2>
+
+<p><strong>@Model.Name</strong></p>
+<p>In Stock:@Model.NumbersInStock</p>
+<p>Release Date:@Model.ReleaseDate</p>
+<p>Date added:@Model.DateAdded</p>
+

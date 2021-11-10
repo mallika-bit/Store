@@ -1,0 +1,14 @@
+﻿@model Store.Models.Customer
+@{
+    ViewBag.Title = "CustomerDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CustomerDetails</h2>
+
+
+
+    <p>@Model.Name</p>
+    <p>Date Of Birth: @Model.Birthdate</p>
+    <p>Is Subscribed: @Model.IsSubscribedToNewsLetter</p>
+<p></p>
